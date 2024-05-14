@@ -1,0 +1,39 @@
+.artworks{
+    background-color: #f6e7c1;
+}
+
+.artworksList{
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.atListItem{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.atListImg{
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.atListTitle{
+    font-size: 12px;
+    color: #00082c;
+}
+
+.divisionLine{
+    width: 100%;
+    height: 40px;
+    background-color: #04219f;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#f6e7c1, rgb(126, 144, 224), #f6e7c1);
+}

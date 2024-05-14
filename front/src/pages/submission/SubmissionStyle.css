@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+
+.submissionContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.subForm{
+    padding: 18px;
+}

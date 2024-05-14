@@ -1,0 +1,26 @@
+.periods{
+    background-color: #f6e7c1;
+}
+
+.periodsContainer{
+    width: 100%;
+    max-width: 1248px;
+    margin-left: 45px;
+}
+
+.periodName{
+    color: #00082c;
+    padding: 15px;
+    border-bottom: 1px dashed darkblue;
+}
+
+.notableArtworks{
+    display: flex;
+
+}
+
+.representativeImage{
+    width: 350px;
+    height: 350px;
+    margin-left: 18px;
+}

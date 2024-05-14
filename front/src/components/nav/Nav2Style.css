@@ -1,0 +1,38 @@
+.nav2{
+    background-color: #ee8130;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.nav2Container {
+    width: 100%;
+    max-width: 990px;
+    height: 10px;
+    margin: 20px 0px 50px 0px;
+}
+
+.nav2List {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.nav2ListItem {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 35px;
+    height: 40px;
+}
+.nav2ListItem:hover{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.icon {
+    padding-right: 30px;
+}

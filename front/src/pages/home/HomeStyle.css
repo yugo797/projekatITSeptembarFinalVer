@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --orange: #ee8130;
+    --blue: #3d72c2;
+}
+
+body {
+    background-color: #3C343D;
+    font-family: Arial, sans-serif;
+}
+
+.sectionContainer {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.sectionTitle {
+    color: var(--blue);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.artistGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.artistCard {
+    width: calc(20% - 20px);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.artistCard:hover {
+    transform: scale(1.05);
+}
+
+
+.artistImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.artistName {
+    color: var(--blue);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.artworkGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.artworkCard {
+    width: calc(20% - 20px);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.artworkCard:hover {
+    transform: scale(1.05);
+}
+.artworkImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.artworkName {
+    color: var(--blue);
+    font-size: 18px;
+    margin-top: 10px;
+}

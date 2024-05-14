@@ -1,0 +1,43 @@
+.featured{
+    background-color: inherit;
+}
+
+.featuredContainer{
+    width: 100%;
+    max-width: 1024px;
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+    gap:150px;
+}
+
+
+.featuredImg{
+    height: 400px;
+    width: 400px;
+    flex-direction: row;
+}
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 320px;
+    margin-right: 12%;
+    height: 400px;
+    margin-top: -33.19%;
+}
+
+.featuredDesc{
+    background-color: rgba(255, 255, 255, 0.71);
+    flex-flow: row nowrap;
+    width: 240px;
+    overflow: scroll;
+}
+
+.name{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.desc{
+    margin-left: 3px;
+}
